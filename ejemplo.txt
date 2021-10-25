@@ -1,0 +1,30 @@
+principal{
+variables:
+en··tero numero1 = 5;
+caracter caracter1 = "asdad";
+;
+subprograma1(entero array1[2][2], caracter array2[1]){
+	
+	bo··ol array3[5] = `true, false, false, false, true´;
+	entero i = 0;
+	mientras(i < 3){
+		mostrar array3[i];
+		++i;
+	}
+		
+}
+subprograma2(entero array1[2], caracter car){
+	mostrar car;
+}
+
+si (numero1 == 5) {
+mostrar "HOLA";
+}
+sino 
+{
+llamar subprograma1 (`1,2´,`3,4´,2+1);
+}
+
+}
+
+
